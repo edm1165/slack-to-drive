@@ -1,4 +1,4 @@
-from flask import Flask,repuest,jsonify
+from flask import Flask, request, jsonify  # ← request に修正
 
 app = Flask(__name__)
 
